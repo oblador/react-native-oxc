@@ -1,0 +1,11 @@
+{
+	"extends": "../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "jsx": "react-jsx",
+    "paths": {
+      "@tsconfig-alias": ["./src/TSConfigAlias.tsx"]
+    }
+  }, 
+	"exclude": []
+}
