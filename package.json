@@ -1,7 +1,7 @@
 {
   "name": "react-native-oxc",
   "version": "0.1.0",
-  "description": "sadf",
+  "description": "10x your react-native builds with OXC",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
   "module": "./lib/module/index.js",
@@ -27,7 +27,6 @@
   ],
   "scripts": {
     "example": "yarn workspace react-native-oxc-example",
-    "test": "jest",
     "typecheck": "tsc",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
     "prepare": "bob build"
