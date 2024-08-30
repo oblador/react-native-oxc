@@ -4,6 +4,12 @@ The [Oxidation Compiler](https://oxc.rs) is creating a collection of high-perfor
 
 This library lets you leverage it for resolution (and soon ™ transpilation) to boost your react-native development environment.
 
+## Benefits over plain metro
+
+* 10x faster rebuilds for larger projects
+* Built-in support for tsconfig paths, so no need for `babel-plugin-module-resolver`
+* Handles `exports` conditions
+
 ## Installation
 
 ```sh
